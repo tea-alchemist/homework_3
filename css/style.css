@@ -96,14 +96,13 @@ a {
 .sidebar-nav a {
   display: inline-block;
   box-sizing: border-box;
-  width: 238px;
+  width: 235px;
   padding-left: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .sidebar-nav a:hover {
-  border-right: 1px solid #c8c8c8;
   background-color: #f9f9f9;
   padding-left: 35px;
 }
