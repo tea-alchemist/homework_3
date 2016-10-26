@@ -4,7 +4,7 @@ body {
   background-color: #f9f9f9;
   font-size: 13.33px;
   color: #2c2c2c;
-  font-family:"Open Sans", "PT Sans", "Arial", sans-serif;
+  font-family:"Tahoma", "PT Sans", "Arial", sans-serif;
 }
 
 .wrapper {
@@ -44,7 +44,7 @@ ul {
 }
 
 .main-nav {
-  background-color: #4d4c4c;
+  background: linear-gradient(to top, #454444, #5e5e5e);
 }
 
 a {
@@ -56,8 +56,8 @@ a {
 .main-nav a {
   display: inline-block;
   padding: 10px 59px 10px 24px;
-  border-left: 1px solid #4d4c4c;
-  border-right: 1px solid #4d4c4c;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
   color: #fff;
 }
 
@@ -104,6 +104,7 @@ a {
 
 .sidebar-nav a:hover {
   background-color: #f9f9f9;
+  border-right: 1px solid #c8c8c8;
   padding-left: 35px;
 }
 
